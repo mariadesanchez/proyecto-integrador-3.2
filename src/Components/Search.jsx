@@ -5,11 +5,12 @@ export const Search = () => {
    
 
     return (   
+    <div className='all'>
+       <h2 style={{color:'white',fontSize:'48px',fontFamily:'Kumbh Sans'}}>Busca Las Mejores Ofertas en Indumentaria Deportiva</h2>
 
  <div className='search' >
 
       <div className='text-input'>
-       <h2 style={{color:'white',fontSize:'48px',fontFamily:'Kumbh Sans'}}>Busca Las Mejores Ofertas en Indumentaria Deportiva</h2>
 
        <input type="text"placeholder='Buscar Por Marca' />
        <input type="text" placeholder='Buscar Por Producto'/> 
@@ -20,8 +21,9 @@ export const Search = () => {
       <button style={{marginLeft:'0px'}}>Buscar</button>
      </div>
     </div> 
-
-    
+</div>
+   
   )
+  
 }
 export default Search

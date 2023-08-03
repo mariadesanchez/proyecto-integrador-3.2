@@ -68,6 +68,9 @@
     .search {
         display: flex;
         justify-content: space-between;
+    }
+    
+    .all {
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -77,7 +80,7 @@
         background-color: #0081FE;
     }
     
-    .search button {
+    .all .search button {
         background-color: #23A6F0;
         border-radius: 12px;
         height: 80px;
