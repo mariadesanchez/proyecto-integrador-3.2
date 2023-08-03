@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 
 import React from "react"
+import "./Card.css"
 // import { Link } from "react-router-dom"
 
 
@@ -22,28 +23,31 @@ const Card = ({ dentist }) => {
       // }
   
 
-  return (
+  // return (
     
-      <div className="card"style={{width:'200px', height:'300px',marginLeft:'35px'}} >
-        {/* <Link key={dentist.id}to={'/detalle/' +dentist.id} style={{ textDecoration: 'none'}}> */}
-        {/* En cada card deberan mostrar en name - username y el id */}
-        <img src=" /images/messi.jpeg" alt='Messi' style={{width:'100%'}}/>
-        <h1>Leo Messi</h1>
-        <h2 style={{textAlign:'center'}}>10</h2>
-        {/* <h1>{dentist.name}</h1>
-        <h2 style={{textAlign:'center'}}>{dentist.username}</h2> */}
+  //     <div className="card"style={{width:'200px', height:'300px',marginLeft:'35px'}} >
+  //       {/* <Link key={dentist.id}to={'/detalle/' +dentist.id} style={{ textDecoration: 'none'}}> */}
+  //       {/* En cada card deberan mostrar en name - username y el id */}
+  //       <img src=" /images/messi.jpeg" alt='Messi' style={{width:'100%'}}/>
+  //       <h1>Leo Messi</h1>
+  //       <h2 style={{textAlign:'center'}}>10</h2>
+  //       {/* <h1>{dentist.name}</h1>
+  //       <h2 style={{textAlign:'center'}}>{dentist.username}</h2> */}
   
-        {/* No debes olvidar que la Card a su vez servira como Link hacia la pagina de detalle */}
-        {/* Ademas deberan integrar la logica para guardar cada Card en el localStorage */}
-        {/* </Link> */}
-        {/*<button onClick={addFav}>{findFav ? '🌟' : '⭐'} </button>*/}
-        {/* <button onClick={addFav}>{findFav ? '🌟' : '⭐'}</button> */}
-      </div>   
-      
-      
-     
- 
-  )
-  }
+  //       {/* No debes olvidar que la Card a su vez servira como Link hacia la pagina de detalle */}
+  //       {/* Ademas deberan integrar la logica para guardar cada Card en el localStorage */}
+  //       {/* </Link> */}
+  //       {/*<button onClick={addFav}>{findFav ? '🌟' : '⭐'} </button>*/}
+  //       {/* <button onClick={addFav}>{findFav ? '🌟' : '⭐'}</button> */}
+  //     </div>   
+//  )
+return (
+  <div className='card'>
+    <img src="/images/messi.jpeg" alt='Messi' style={{ width: '100%' }} />
+    <h1>Leo Messi</h1>
+    <h2 style={{ textAlign: 'center' }}>10</h2>
+  </div>
+);
+}
 
 export default Card

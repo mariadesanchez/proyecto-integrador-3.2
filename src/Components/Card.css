@@ -1,0 +1,18 @@
+.card {
+    width: 200px;
+    margin: 20px auto; /* Ajusta los márgenes para centrar horizontalmente */
+    margin-top: 20px; /* Ajusta este margen superior según tus necesidades */
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center; /* Agrega alineación del texto */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+  }
+  

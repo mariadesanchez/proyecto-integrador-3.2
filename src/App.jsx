@@ -13,24 +13,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   // const dentistState = {dentistTheme:true}
   // eslint-disable-next-line no-unused-vars
-  const {dentistState} = usecontextGlobal()
- 
-  return (
-      <div className="App">
+  const { dentistState } = usecontextGlobal()
 
-         
-           <Routes>
-      
-      
-           <Route path='/' element={<Layout/>}>
-           <Route path={routes.home} element={<Home/>}/>
-           <Route path={routes.detail} element={<Detail/>}/>
-           <Route path={routes.pageNotFound} element={<PageNotFound/>}/>
-         </Route>
-       
-          </Routes>
-      
-      </div>
+  return (
+    <div className="App">
+
+
+      <Routes>
+
+
+        <Route path='/' element={<Layout />}>
+          <Route path={routes.home} element={<Home />} />
+          <Route path={routes.detail} element={<Detail />} />
+          <Route path={routes.pageNotFound} element={<PageNotFound />} />
+        </Route>
+
+      </Routes>
+
+    </div>
   );
 }
 
